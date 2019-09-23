@@ -1,4 +1,4 @@
-import AppCore from "@/core/libs/AppCore";
+import {AppCore} from "@/core/libs/AppCore";
 
 class AppAbout extends AppCore {
 

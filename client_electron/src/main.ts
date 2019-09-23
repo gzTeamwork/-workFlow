@@ -7,7 +7,9 @@ import 'iview/dist/styles/iview.css'
 import settings from "@/core/settings";
 // import {apps, routers, stores, autoLoad} from '@/core/autoLoad'
 import {AppRouter} from '@/core/libs/AppCore'
-
+import config from '@/config';
+// @ts-ignore
+window._conf = config;
 Vue.use(iView);
 
 Vue.config.productionTip = false;

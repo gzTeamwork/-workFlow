@@ -1,7 +1,8 @@
-const applications = [
-  'about',
-];
+import AppAbout from "@/applications/about/app";
 
-export default {
-  applications,
+const applications = {
+  'about': AppAbout,
 }
+
+
+export default applications
