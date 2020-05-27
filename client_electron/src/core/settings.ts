@@ -1,8 +1,7 @@
-import AppAbout from "@/applications/about/app";
+import AppAbout from '@/applications/about/app'
 
 const applications = {
-  'about': AppAbout,
+  'about': AppAbout
 }
 
-
-export default applications
+export default { applications }
